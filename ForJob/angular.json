@@ -1,6 +1,6 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "ForJob": {
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ForJob"
+    }
+  },
+  "defaultProject": "ForJob",
+  "cli": {
+    "analytics": "192be2ed-4486-402e-8ab6-762e0fc1b847"
+  }
 }
