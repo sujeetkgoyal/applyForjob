@@ -124,6 +124,10 @@
   },
   "defaultProject": "ForJob",
   "cli": {
+<<<<<<< HEAD
     "analytics": "0178109c-7a17-461b-98bb-3b37ac88bdaa"
+=======
+    "analytics": "192be2ed-4486-402e-8ab6-762e0fc1b847"
+>>>>>>> ec5d140831339a0b0e0bcf263274b003b194dc12
   }
 }
