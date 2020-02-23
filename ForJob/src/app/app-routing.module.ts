@@ -8,6 +8,7 @@ const routes: Routes = [
   {path: '', redirectTo: '', pathMatch: 'full'},
   {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent}
+
 ];
 
 @NgModule({
@@ -16,4 +17,5 @@ const routes: Routes = [
 })
 export class AppRoutingModule { }
 export const routingComponent = [LoginComponent, RegisterComponent ];
+
 
