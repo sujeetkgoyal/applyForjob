@@ -3,6 +3,7 @@
   <h3 *ngIf='message'>
     {{message}}
   </h3>
+ 
   <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
     <div class="row">
       <div class="form-group col-md-12">
@@ -19,9 +20,6 @@
       </div>
     </div>
     <button class="btn btn-primary" [disabled]="loginForm.invalid">Login</button>
-    <div *ngIf="invalidLogin" class="error">
-      <div>Invalid user or password. Please try agian</div>
-    </div>
     <a [routerLink]="['/register']" class="btn btn-info" routerLinkActive="router-link-active" style="margin-left: 5px;">Register</a>
 </form>
 </div>
